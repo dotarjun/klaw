@@ -2,10 +2,12 @@
 
 ## Table of content
 
-- [First setup for remote API](#first-setup-for-remote-api)
-  - [Create new Vite mode for remote API development](#create-new-vite-mode-for-remote-api-development)
-  - [Set up self-signed certificate (required when API runs on HTTPS)](#set-up-self-signed-certificate-required-when-api-runs-on-https)
-- [How to run the project](#how-to-run-the-project)
+- [Development with remote API](#development-with-remote-api)
+  - [Table of content](#table-of-content)
+  - [First setup for remote API](#first-setup-for-remote-api)
+    - [Create new Vite mode for remote API development](#create-new-vite-mode-for-remote-api-development)
+    - [Set up self-signed certificate (required when API runs on HTTPS)](#set-up-self-signed-certificate-required-when-api-runs-on-https)
+  - [How to run the project](#how-to-run-the-project)
 
 ## First setup for remote API
 
@@ -21,8 +23,7 @@
 2. run `pnpm install`
 3. run `pnpm add-precommit` the first time you install the repository to set the custom directory for our pre commit hooks.
 4. Run development:
-   4.1. If you have not set up a remote API mode, please follow [First setup](../docs/development-with-remote-api.
-   md#first-setup)
+   4.1. If you have not set up a remote API mode, please follow [First setup](../docs/development-with-remote-api.md#first-setup)
    4.2. If you already have a setup, run `pnpm dev`
 5. [Create new Vite mode for remote API development](#create-new-vite-mode-for-remote-api-development)
 6. When your API runs on `https`: [Set up self-signed certificate](#set-up-self-signed-certificate-required-when-api-runs-on-https)
